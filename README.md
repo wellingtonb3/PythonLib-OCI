@@ -1,22 +1,28 @@
-# PythonLib-OCI
-Python Libraries for use in the OCI Database
+# Python Integration with Oracle Cloud Infrastructure (OCI) 🐍☁️
 
+This repository provides a comprehensive guide and a list of Python libraries used to send, manage, and process data directly within the **Oracle Cloud Infrastructure (OCI)**.
 
+<p align="center">
+  <img src="images/libraries.jpg" alt="Python Libraries for OCI Connection" width="800">
+</p>
 
-## 🛠️ Bibliotecas Python para Integração com OCI
+---
 
-Abaixo, uma comparação das principais bibliotecas para envio e manipulação de dados na Oracle Cloud Infrastructure:
+## 🛠️ Python Libraries for OCI Integration
 
-| Biblioteca | Principal Vantagem | Principal Desvantagem | Dificuldade |
+Below is a comparison of the top libraries for data ingestion and infrastructure management on Oracle Cloud:
+
+| Library | Key Advantage | Main Disadvantage | Difficulty |
 | :--- | :--- | :--- | :--- |
-| **OCI SDK (`oci`)** | Acesso total a TODOS os recursos da nuvem. | Verboza; exige muitas linhas para tarefas simples. | Média |
-| **python-oracledb** | Dispensa instalação de Client Oracle (modo Thin). | Focada apenas em SQL/Banco de Dados. | Baixa |
-| **oracle-ads** | Integração nativa com Pandas e fluxos de ML. | Biblioteca pesada (muitas dependências). | Média |
-| **ocifs** | Trata o Bucket como se fosse um disco local. | Menos controle sobre metadados finos da API. | Baixa |
-| **confluent-kafka** | Altíssima performance para dados em tempo real. | Requer conceitos de mensageria (tópicos/partições). | Alta |
-| **SQLAlchemy** | Abstração que facilita trocar de banco no futuro. | Performance inferior ao driver puro. | Média |
-| **boto3 (S3 API)** | Reutiliza código de quem já conhece AWS. | Funções avançadas da OCI ficam inacessíveis. | Baixa |
-| **polars** | Processamento de Big Data extremamente rápido. | Integração com OCI ainda requer drivers extras. | Alta |
-| **papermill** | Automatiza relatórios e salva resultados na nuvem. | Uso muito específico para Jupyter Notebooks. | Baixa |
-| **loguru / Logging** | Monitoramento em tempo real da aplicação. | Exige configuração de handlers customizados. | Média |
+| **OCI SDK (`oci`)** | Full access to ALL cloud resources and APIs. | Verbose; requires many lines for simple tasks. | Medium |
+| **python-oracledb** | No Oracle Client installation required (Thin mode). | Focused only on SQL/Database operations. | Low |
+| **oracle-ads** | Native integration with Pandas and ML workflows. | Heavy library (many dependencies). | Medium |
+| **ocifs** | Treats Buckets as if they were a local drive. | Less control over fine-grained API metadata. | Low |
+| **confluent-kafka** | Ultra-high performance for real-time data. | Requires messaging concepts (topics/partitions). | High |
+| **SQLAlchemy** | Abstraction layer; easy to switch DBs later. | Lower performance than the pure driver. | Medium |
+| **boto3 (S3 API)** | Reuse code from those familiar with AWS. | Advanced OCI features are inaccessible. | Low |
+| **polars** | Extremely fast Big Data processing. | OCI integration still requires extra drivers. | High |
+| **papermill** | Automates reports and saves results to the cloud. | Very specific use case for Jupyter Notebooks. | Low |
+| **loguru / Logging** | Real-time application monitoring. | Requires custom OCI handler configuration. | Medium |
 
+---
