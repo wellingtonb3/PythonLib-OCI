@@ -1,5 +1,13 @@
 # Python Integration with Oracle Cloud Infrastructure (OCI) 🐍☁️
 
+---
+
+## 📝 Author's Note
+
+As an **Oracle ACE Apprentice** and Computer Engineering student, I frequently work with **OCI Database services**. I've found that choosing the right library is the first step toward a successful integration. Below, I've curated the essential Python libraries for OCI to help you navigate this ecosystem more efficiently.
+
+---
+
 This repository provides a comprehensive guide and a list of Python libraries used to send, manage, and process data directly within the **Oracle Cloud Infrastructure (OCI)**.
 
 <p align="center">
